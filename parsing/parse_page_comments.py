@@ -1,13 +1,13 @@
 from selenium.webdriver import Chrome, Firefox
 from page_object.video_page import YouTubePageVideo
-import time
 from bs4 import BeautifulSoup
+import time
 import csv
 
 
 def browser():
     driver = Chrome(executable_path='/home/hitruk/dir/chromedriver')
-    # driver = Firefox(executable_path='')
+    # driver = Firefox(executable_path='/home/hitruk/dir/geckodriver')
     driver.implicitly_wait(10)
     return driver
 
