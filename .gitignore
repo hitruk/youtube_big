@@ -1,0 +1,20 @@
+# log
+geckhodriver.log
+*.log
+
+
+# virtualenv
+.venv
+venv/
+ENV/
+
+# IDEs
+.idea
+
+# pycache
+__pycache__
+.pytest_cache
+
+# результаты парсинга
+*.csv
+
